@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { X } from 'lucide-react';
 
 const successStories = [
-    { companyName: 'Nexus AI', amountRaised: '$12M', description: 'Series A Funding secured with our bespoke deck.', image: '/img2.png' },
+    { companyName: 'Nexus AI', amountRaised: '$2M USD', description: 'Series A Funding secured with our bespoke deck.', image: '/img2.png' },
     { companyName: 'Solaris', amountRaised: '$4.5M', description: 'Seed Round closed in 6 weeks.', image: '/img3.jpg' },
     { companyName: 'FinFlow', amountRaised: '$20M', description: 'Strategic acquisition proposal accepted.', image: '/img4.png' },
     { companyName: 'MediTech', amountRaised: '$8M', description: 'Grant + Equity matched funding.', image: '/img5.png' },
@@ -14,7 +14,7 @@ const successStories = [
     { companyName: 'CryptoSafe', amountRaised: '$5M', description: 'Token sale private round advisory.', image: '/img7.png' },
     { companyName: 'AgriGrow', amountRaised: '$1.8M', description: 'Angel syndicate led round.', image: '/img8.png' },
     { companyName: 'EduVerse', amountRaised: '$15M', description: 'Series B expansion capital.', image: '/img9.png' },
-    { companyName: 'NovaTech', amountRaised: '$3.5M', description: 'Pre-revenue seed round.', image: '/img10.png' }, // Adding the 9th item to satisfy through img10.png
+    { companyName: 'Nova Tech', amountRaised: '$3.5M USD', description: 'Pre-revenue seed round.', image: '/img10.png' }, // Adding the 9th item to satisfy through img10.png
 ];
 
 export default function Portfolio() {

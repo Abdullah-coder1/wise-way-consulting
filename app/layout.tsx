@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 export const metadata: Metadata = {
     title: "Wise Way Consulting | Capital Raising Advisory",
     description: "Secure investor funding with bespoke business plans, pitch decks, and financial models.",
+    icons: {
+        icon: "/icon.svg",
+    },
 };
 
 import Navbar from "@/components/layout/Navbar";

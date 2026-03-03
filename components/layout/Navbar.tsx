@@ -18,18 +18,18 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = React.useState(false)
 
     return (
-        <header className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/80 backdrop-blur-md supports-[backdrop-filter]:bg-black/60">
+        <header className="fixed top-0 w-full z-50 bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/10">
             <div className="container flex min-h-[5rem] md:min-h-[6rem] py-2 items-center justify-between px-4 md:px-6">
                 <div className="flex items-center gap-2">
                     <Link href="/" className="group flex items-center cursor-pointer py-2">
                         {/* The Logo Icon - Fixed Sizing to prevent squishing */}
-                        <div className="relative h-16 w-16 md:h-20 md:w-20 flex-shrink-0 transition-transform duration-500 group-hover:scale-105">
+                        <div className="relative h-12 w-32 md:h-16 md:w-48 flex items-center justify-start group-hover:scale-105 transition-transform duration-300">
                             <Image
                                 src="/logo.png"
                                 alt="Wiseway Symbol"
                                 fill
                                 priority
-                                className="object-contain filter grayscale brightness-[200%] drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]"
+                                className="object-contain filter grayscale brightness-[200%] drop-shadow-[0_0_12px_rgba(255,255,255,0.3)]"
                             />
                         </div>
 

@@ -66,7 +66,7 @@ export default function Hero() {
                                 </Link>
 
                                 <Link
-                                    href="/#portfolio"
+                                    href="/#work"
                                     className="group inline-flex h-12 w-full sm:w-auto items-center justify-center rounded-md border border-white/20 px-8 font-medium text-white transition-all hover:bg-white/10 hover:border-white/40"
                                 >
                                     View Our Work

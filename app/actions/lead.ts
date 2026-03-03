@@ -53,8 +53,19 @@ export async function createLead(prevState: CreateLeadState, formData: FormData)
             },
         });
         return { message: 'Lead Created Successfully', success: true };
-    } catch (error) {
-        console.error('Database Error:', error);
-        return { message: 'Database Error: Failed to Create Lead.', success: false };
+    } catch (error: unknown) {
+        console.error("PRISMA ERROR DETAILS:", error);
+
+        let errorMessage = "Unknown database error occurred.";
+
+        const err = error as Error & { name?: string };
+
+        if (err?.name === 'PrismaClientInitializationError' || err?.message?.includes("Can't reach database server")) {
+            errorMessage = "Database connection failed. The server might be paused or unreachable. Please check your Supabase dashboard.";
+        } else if (error instanceof Error) {
+            errorMessage = error.message;
+        }
+
+        return { success: false, message: errorMessage };
     }
 }

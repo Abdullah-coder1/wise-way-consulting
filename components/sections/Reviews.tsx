@@ -3,17 +3,12 @@
 import { motion } from 'framer-motion';
 
 const reviews = [
-    { name: 'Sarah L.', title: 'CEO, TechFlow', text: 'Wiseway transformed our chaotic ideas into a compelling narrative. Closed $2M in 3 months.', image: '' },
-    { name: 'James K.', title: 'Founder, BlockScale', text: 'Financial model was impeccable. VCs didn\'t find a single hole in our logic.', image: '' },
-    { name: 'Elena R.', title: 'Co-Founder, GreenEnergy', text: 'The pitch deck design was stunning. It immediately set us apart from the crowd.', image: '' },
-    { name: 'Michael T.', title: 'CEO, DataSense', text: 'Professional, fast, and incredibly insightful. Worth every penny.', image: '' },
-    { name: 'David W.', title: 'Founder, Healthify', text: 'They helped us structure our ask perfectly. We got exactly what we needed.', image: '' },
-    { name: 'Jessica M.', title: 'COO, EduTech', text: 'Our valuation increased significantly thanks to their financial modeling work.', image: '' },
-    { name: 'Robert C.', title: 'Founder, AeroSpace', text: 'A true partner in our fundraising journey. Highly recommended.', image: '' },
-    { name: 'Linda P.', title: 'CEO, RetailNext', text: 'The storytelling workshop changed how we pitch forever.', image: '' },
-    { name: 'Thomas H.', title: 'Founder, FinTech', text: 'Simply the best advisory service for early-stage founders.', image: '' },
-    { name: 'Waleed A.', title: 'CEO, LogisticsOne', text: 'From zero to funded. Couldn\'t have done it without Wiseway.', image: '' },
-]; // 10 reviews
+    { name: 'Alexandria', title: 'CEO, Nova Tech', text: 'Haris Khan went way above and beyond our expectations. His strategic insights and excellent work were instrumental in helping us successfully raise $3.5M USD. Highly recommended!', image: '' },
+    { name: 'Bella', title: 'Founder', text: 'An absolute lifesaver. The business plan was sharp, compelling, and perfectly aligned with what investors wanted to see. We couldn\'t have secured our seed round without this expertise.', image: '' },
+    { name: 'Nihar Gala', title: 'CEO', text: 'Exceptional financial modeling and a stunning pitch deck layout. His ability to translate complex data into a simple, investable narrative is unmatched.', image: '' },
+    { name: 'Vivian', title: 'Founder', text: 'Working with him completely changed our trajectory. The clarity and structure he brought to our value proposition directly led to our successful fundraising.', image: '' },
+    { name: 'Adam Harvey', title: 'CEO', text: 'A masterclass in investor storytelling. Haris knows exactly what VCs are looking for and delivers presentation materials that command attention.', image: '' },
+]; // 5 new reviews
 
 export default function Reviews() {
     return (

@@ -29,23 +29,24 @@ export default function Footer() {
                 <div className="space-y-4">
                     <h4 className="text-sm font-semibold text-white">Company</h4>
                     <ul className="space-y-2 text-sm">
-                        <li><Link href="/portfolio" className="hover:text-white">Success Stories</Link></li>
+                        <li><Link href="/#work" className="hover:text-white">Success Stories</Link></li>
                         <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-                        <li><Link href="/reviews" className="hover:text-white">Reviews</Link></li>
+                        <li><Link href="/#reviews" className="hover:text-white">Reviews</Link></li>
                     </ul>
                 </div>
 
                 <div className="space-y-4">
                     <h4 className="text-sm font-semibold text-white">Contact Us</h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Email: huziamakhan91@gmail.com</li>
-                        <li>Phone: +92 XXX XXXXXXX</li>
-                        <li>Location: Taxila, Punjab, Pakistan</li>
+                        <li>Email: wisewayconsulting1@gmail.com</li>
+                        <li>Phone: +92 3230148199</li>
+                        <li>Location: Islamabad, Pakistan</li>
                     </ul>
                     <div className="flex gap-4">
-                        {/* Social placeholders */}
-                        <div className="h-8 w-8 bg-zinc-800 rounded-full flex items-center justify-center hover:bg-gold-600 transition-colors cursor-pointer">In</div>
-                        <div className="h-8 w-8 bg-zinc-800 rounded-full flex items-center justify-center hover:bg-gold-600 transition-colors cursor-pointer">X</div>
+                        {/* Social Links */}
+                        <a href="https://www.linkedin.com/in/m-haris-khan1/" target="_blank" rel="noopener noreferrer" className="h-8 w-8 bg-zinc-800 rounded-full flex items-center justify-center hover:bg-gold-600 hover:text-black transition-colors">
+                            In
+                        </a>
                     </div>
                 </div>
             </div>

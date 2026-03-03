@@ -78,8 +78,9 @@ export default function Strategist() {
                             className="pt-4 flex flex-col sm:flex-row gap-4"
                         >
                             <Link
-                                href="https://www.linkedin.com/in/hariskhan"
+                                href="https://www.linkedin.com/in/m-haris-khan1/"
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="group inline-flex h-12 items-center justify-center rounded-md bg-white px-8 font-medium text-black transition-all hover:bg-gray-200"
                             >
                                 <Linkedin className="w-4 h-4 mr-2" />

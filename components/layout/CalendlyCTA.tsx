@@ -13,8 +13,9 @@ export default function CalendlyCTA() {
             className="fixed bottom-8 right-8 z-50"
         >
             <Link
-                href="https://calendly.com/your-link"
+                href="https://calendly.com/hariskhan971/15-min-discovery-call"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-4 bg-brand-primary text-white rounded-full font-bold shadow-[0_0_15px_rgba(37,99,235,0.5)] hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] hover:bg-brand-primary/90 transition-all transform hover:-translate-y-1"
             >
                 <Calendar className="w-5 h-5" />

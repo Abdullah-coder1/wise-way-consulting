@@ -145,7 +145,9 @@ export default function LeadForm() {
             </div>
 
             {state.message && !state.success && (
-                <p className="text-sm text-red-500 text-center">{state.message}</p>
+                <div className="p-4 bg-red-500/10 border border-red-500/50 rounded-lg">
+                    <p className="text-sm text-red-500 text-center font-medium">{state.message}</p>
+                </div>
             )}
 
             <SubmitButton />

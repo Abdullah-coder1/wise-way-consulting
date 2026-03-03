@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function GetStartedPage() {
     return (
-        <main className="min-h-screen bg-black text-white py-24 px-4 md:px-6">
+        <main className="min-h-screen pt-32 pb-12 px-4 md:px-6 bg-black text-white">
             <div className="max-w-2xl mx-auto">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">Start Your Project</h1>
