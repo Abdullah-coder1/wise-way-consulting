@@ -6,15 +6,13 @@ import Image from 'next/image';
 import { X } from 'lucide-react';
 
 const successStories = [
-    { companyName: 'Nexus AI', amountRaised: '$2M USD', description: 'Series A Funding secured with our bespoke deck.', image: '/img2.png' },
-    { companyName: 'Solaris', amountRaised: '$4.5M', description: 'Seed Round closed in 6 weeks.', image: '/img3.jpg' },
-    { companyName: 'FinFlow', amountRaised: '$20M', description: 'Strategic acquisition proposal accepted.', image: '/img4.png' },
-    { companyName: 'MediTech', amountRaised: '$8M', description: 'Grant + Equity matched funding.', image: '/img5.png' },
-    { companyName: 'Urban Logistics', amountRaised: '$2.2M', description: 'Pre-seed round for MVP launch.', image: '/img6.png' },
-    { companyName: 'CryptoSafe', amountRaised: '$5M', description: 'Token sale private round advisory.', image: '/img7.png' },
-    { companyName: 'AgriGrow', amountRaised: '$1.8M', description: 'Angel syndicate led round.', image: '/img8.png' },
-    { companyName: 'EduVerse', amountRaised: '$15M', description: 'Series B expansion capital.', image: '/img9.png' },
-    { companyName: 'Nova Tech', amountRaised: '$3.5M USD', description: 'Pre-revenue seed round.', image: '/img10.png' }, // Adding the 9th item to satisfy through img10.png
+    { companyName: 'Care', amountRaised: '$150k', description: 'Series A Funding secured with our bespoke deck.', image: '/Care.png' },
+    { companyName: 'Legacy One', amountRaised: '$100k', description: 'Grant + Equity matched funding.', image: '/Legacy one.png' },
+    { companyName: 'Scout Portugal', amountRaised: '$250k', description: 'Pre-revenue seed round.', image: '/Scout portugal.png' },
+    { companyName: 'Quest Trip', amountRaised: '$200k', description: 'Token sale private round advisory.', image: '/QuestTrip.png' },
+    { companyName: 'The Standard', amountRaised: '$100k', description: '', image: '/The Standard.png' },
+    { companyName: 'Freedom Movement', amountRaised: '$150k', description: 'Strategic acquisition proposal accepted.', image: '/Freedom movement.png' },
+    { companyName: 'Acai Bella', amountRaised: '$100k', description: 'Seed Round closed in 6 weeks.', image: '/Acaibella wellness cafe.png' }
 ];
 
 export default function Portfolio() {
@@ -51,9 +49,11 @@ export default function Portfolio() {
                             </div>
                             <div className="flex justify-between items-start mb-2">
                                 <h3 className="text-2xl font-bold text-white">{story.companyName}</h3>
-                                <span className="px-3 py-1 bg-white text-black text-xs font-bold rounded-full">
-                                    Raised {story.amountRaised}
-                                </span>
+                                {story.amountRaised && (
+                                    <span className="px-3 py-1 bg-white text-black text-xs font-bold rounded-full">
+                                        Raised {story.amountRaised}
+                                    </span>
+                                )}
                             </div>
                             <p className="text-zinc-500 text-sm">
                                 {story.description}

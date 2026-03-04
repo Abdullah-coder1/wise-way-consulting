@@ -38,7 +38,7 @@ export default function Footer() {
                 <div className="space-y-4">
                     <h4 className="text-sm font-semibold text-white">Contact Us</h4>
                     <ul className="space-y-2 text-sm">
-                        <li>Email: wisewayconsulting1@gmail.com</li>
+                        <li>Email: <a href="mailto:haris@wisewayconsulting.co" className="hover:text-white transition-colors">haris@wisewayconsulting.co</a></li>
                         <li>Phone: +92 3230148199</li>
                         <li>Location: Islamabad, Pakistan</li>
                     </ul>

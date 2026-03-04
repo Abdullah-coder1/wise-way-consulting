@@ -12,6 +12,7 @@ const navLinks = [
     { href: "/#services", label: "Services" },
     { href: "/#work", label: "Our Work" },
     { href: "/#reviews", label: "Reviews" },
+    { href: "/about", label: "About Us" },
 ]
 
 export default function Navbar() {
@@ -23,7 +24,7 @@ export default function Navbar() {
                 <div className="flex items-center gap-2">
                     <Link href="/" className="group flex items-center cursor-pointer py-2">
                         {/* The Logo Icon - Fixed Sizing to prevent squishing */}
-                        <div className="relative h-12 w-32 md:h-16 md:w-48 flex items-center justify-start group-hover:scale-105 transition-transform duration-300">
+                        <div className="relative h-12 w-32 md:h-16 md:w-32 flex items-center justify-start">
                             <Image
                                 src="/logo.png"
                                 alt="Wiseway Symbol"
@@ -33,8 +34,8 @@ export default function Navbar() {
                             />
                         </div>
 
-                        {/* The Sliding Hover Text */}
-                        <div className="overflow-hidden transition-all duration-500 ease-out max-w-0 opacity-0 group-hover:max-w-[300px] group-hover:opacity-100 group-hover:ml-3">
+                        {/* Static Text next to the Logo */}
+                        <div className="ml-0 md:ml-2 flex items-center">
                             <span className="text-white text-lg md:text-xl font-bold tracking-widest whitespace-nowrap">
                                 WISEWAY <span className="text-blue-500">CONSULTING</span>
                             </span>

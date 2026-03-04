@@ -3,12 +3,17 @@
 import { motion } from 'framer-motion';
 
 const reviews = [
-    { name: 'Alexandria', title: 'CEO, Nova Tech', text: 'Haris Khan went way above and beyond our expectations. His strategic insights and excellent work were instrumental in helping us successfully raise $3.5M USD. Highly recommended!', image: '' },
-    { name: 'Bella', title: 'Founder', text: 'An absolute lifesaver. The business plan was sharp, compelling, and perfectly aligned with what investors wanted to see. We couldn\'t have secured our seed round without this expertise.', image: '' },
-    { name: 'Nihar Gala', title: 'CEO', text: 'Exceptional financial modeling and a stunning pitch deck layout. His ability to translate complex data into a simple, investable narrative is unmatched.', image: '' },
-    { name: 'Vivian', title: 'Founder', text: 'Working with him completely changed our trajectory. The clarity and structure he brought to our value proposition directly led to our successful fundraising.', image: '' },
-    { name: 'Adam Harvey', title: 'CEO', text: 'A masterclass in investor storytelling. Haris knows exactly what VCs are looking for and delivers presentation materials that command attention.', image: '' },
-]; // 5 new reviews
+    { name: 'Chiquita Smith', title: 'Founder of Care', text: 'Working with Haris was invaluable. He is highly attentive, brings a wealth of industry knowledge to the table, and his final presentation was outstanding. I highly recommend his consulting services.', image: '' },
+    { name: 'Alexandria', title: 'Founder of Scout Portugal', text: 'Haris and his team provided the exact level of detail, specificity, and strategic care we needed. His work was instrumental in helping us successfully close our funding round. We will absolutely continue to collaborate with Wise Way Consulting for future ventures.', image: '' },
+    { name: 'Eric Robinson', title: 'Founder of Freedom Movement', text: 'An absolute beast! The executive one-pager Haris created alone secured the signature I needed to build a 7-figure business. I highly recommend his services to any founder—my team and I will definitely be keeping him busy with future projects.', image: '' },
+    { name: 'Ida Bella', title: 'Founder of Acai Bella', text: 'Haris was exceptional. He completely understood the assignment, listened to exactly what our business needed, and executed well beyond our expectations. He is a true expert at bringing a founder\'s vision to life.', image: '' },
+    { name: 'Nihar Gala', title: 'Founder of Care IQ', text: 'Haris is a phenomenal strategic partner. The business plan he developed showcased impeccable attention to detail and went far beyond our expectations, directly contributing to our latest raise. Outstanding execution and proactive advisory.', image: '' },
+    { name: 'Darcell Boutelle', title: 'Founder of Annadale Family Medicine', text: 'Haris truly shines in creating top-notch business plans. His strategic insight and incredible attention to detail far exceeded my expectations—I’ve previously paid much more for plans from others that weren\'t half as robust. Working with him was a seamless and highly professional experience.', image: '' },
+    { name: 'Nisso Andubekov', title: 'Founder of Tequila Beauty', text: 'Working with Haris was an outstanding experience. His organizational skills and ability to anticipate operational questions I hadn\'t even thought to ask were incredibly valuable. He went above and beyond to guide me through the strategy, resulting in a clear, visually engaging roadmap for my business.', image: '' },
+    { name: 'Shareese', title: 'CEO of Skin by Aspen', text: 'I had the pleasure of working with Haris on my updated business plan and pitch deck. He was incredibly thorough and knowledgeable. What impressed me most was how perfectly he aligned the final presentations with our brand architecture. I will absolutely be referring him to other founders looking for top-tier investor materials.', image: '' },
+    { name: 'Gina Luiz', title: 'CEO of Bao Beyond Restaurant', text: 'I recently worked with Haris on my business plan, and I couldn\'t be happier. He is incredibly knowledgeable about exactly what makes a business stand out to investors. He was a fantastic guide throughout the entire process and truly goes the extra mile.', image: '' },
+    { name: 'Adam Harvey', title: 'Founder of Padelock', text: 'Haris is brilliant. His immediate understanding of our business model, combined with his strategic guidance and execution speed, are simply second to none. I would happily trust him and his team with our future consulting needs.', image: '' }
+];
 
 export default function Reviews() {
     return (

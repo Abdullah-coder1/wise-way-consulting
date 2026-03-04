@@ -21,7 +21,7 @@ export default function Strategist() {
                     >
                         <Image
                             src="/simg.png"
-                            alt="Haris Khan - Lead Strategist"
+                            alt="Haris - Lead Strategist"
                             fill
                             className="object-contain grayscale group-hover:grayscale-0 transition-all duration-700"
                         />
@@ -36,7 +36,7 @@ export default function Strategist() {
                             className="inline-block"
                         >
                             <span className="px-3 py-1 rounded-full bg-white/10 text-white text-xs font-medium tracking-widest uppercase border border-white/10">
-                                The Strategist
+                                THE STRATEGIST
                             </span>
                         </motion.div>
 
@@ -47,28 +47,26 @@ export default function Strategist() {
                             transition={{ delay: 0.1 }}
                             className="text-3xl md:text-5xl font-bold text-white tracking-tight"
                         >
-                            Meet Haris Khan
+                            Haris Doesn&apos;t Just Fix Pitch Decks. He Changes How Investors See Your Business.
                         </motion.h2>
 
-                        <motion.p
+                        <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
-                            className="text-lg text-zinc-400 leading-relaxed"
+                            className="text-lg text-zinc-400 leading-relaxed space-y-4"
                         >
-                            Bringing <span className="text-white font-semibold">3 decades of combined experience</span> to the table, Haris is the lead strategist behind <span className="text-white font-semibold">$137M+</span> in raised capital.
-                        </motion.p>
-
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: 0.3 }}
-                            className="text-lg text-zinc-400 leading-relaxed"
-                        >
-                            Haris doesn&apos;t just critique decks; he architects funding narratives that resonate natively with institutional investors. With a profound understanding of what VCs are actively searching for, he transforms high-potential startups into rigorously investable assets.
-                        </motion.p>
+                            <p>
+                                Haris brings 3 decades of combined experience and has helped founders raise over $137M. He knows exactly how investors think. Most consultants just polish your slides and make them look nice. Haris goes deeper.
+                            </p>
+                            <p>
+                                He knows that investors are not just looking at your product; they are looking at their risk. His job is to remove every reason they have to say no. He builds a story that speaks the exact language investors want to hear.
+                            </p>
+                            <p className="text-white font-medium">
+                                Founders who work with Haris raise money faster, on better terms, and from the right investors.
+                            </p>
+                        </motion.div>
 
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
@@ -88,7 +86,7 @@ export default function Strategist() {
                             </Link>
 
                             <Link
-                                href="/#portfolio"
+                                href="/#work"
                                 className="group inline-flex h-12 items-center justify-center rounded-md border border-white/20 px-8 font-medium text-white transition-all hover:bg-white/10"
                             >
                                 <span>View Success Stories</span>

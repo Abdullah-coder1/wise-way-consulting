@@ -30,16 +30,16 @@ export default function Hero() {
                                 className="inline-flex items-center space-x-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5"
                             >
                                 <TrendingUp className="w-4 h-4 text-brand-secondary" />
-                                <span className="text-sm font-medium text-brand-secondary drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">Trusted by Founders Raising $137M+</span>
+                                <span className="text-sm font-medium text-brand-secondary drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">↗ Trusted by Founders Who&apos;ve Raised $137M+</span>
                             </motion.div>
 
                             <motion.h1
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.1 }}
-                                className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white max-w-2xl uppercase leading-tight"
+                                className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white max-w-2xl leading-tight"
                             >
-                                Make your next pitch <span className="text-zinc-500">your last.</span>
+                                Most Pitches Fail Before the First Slide. Yours Won&apos;t.
                             </motion.h1>
 
                             <motion.p
@@ -48,7 +48,7 @@ export default function Hero() {
                                 transition={{ duration: 0.5, delay: 0.2 }}
                                 className="text-xl text-zinc-200 max-w-xl leading-relaxed"
                             >
-                                Investors don&apos;t fund good ideas. They fund certainty. We bridge the gap between your vision and their checkbook.
+                                Investors see thousands of pitch decks a year, but they only fund a few. We make sure yours stands out by telling a clear, confident story that makes them want to invest.
                             </motion.p>
 
                             <motion.div
