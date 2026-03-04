@@ -22,9 +22,9 @@ export default function Navbar() {
         <header className="fixed top-0 w-full z-50 bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/10">
             <div className="container flex min-h-[5rem] md:min-h-[6rem] py-2 items-center justify-between px-4 md:px-6">
                 <div className="flex items-center gap-2">
-                    <Link href="/" className="group flex items-center cursor-pointer py-2">
-                        {/* The Logo Icon - Fixed Sizing to prevent squishing */}
-                        <div className="relative h-12 w-32 md:h-16 md:w-32 flex items-center justify-start">
+                    <Link href="/" className="group flex items-center cursor-pointer py-2 overflow-hidden max-w-[70vw] md:max-w-none">
+                        {/* The Logo Icon - Responsively Sized to prevent mobile squishing */}
+                        <div className="relative h-8 w-16 md:h-16 md:w-32 flex-shrink-0 flex items-center justify-start">
                             <Image
                                 src="/logo.png"
                                 alt="Wiseway Symbol"
@@ -34,9 +34,9 @@ export default function Navbar() {
                             />
                         </div>
 
-                        {/* Static Text next to the Logo */}
-                        <div className="ml-0 md:ml-2 flex items-center">
-                            <span className="text-white text-lg md:text-xl font-bold tracking-widest whitespace-nowrap">
+                        {/* Static Text next to the Logo - Uses text-xs/sm on mobile to stay on row */}
+                        <div className="ml-1 md:ml-2 flex items-center min-w-0">
+                            <span className="text-white text-[10px] xs:text-xs sm:text-sm md:text-xl font-bold tracking-widest truncate">
                                 WISEWAY <span className="text-blue-500">CONSULTING</span>
                             </span>
                         </div>

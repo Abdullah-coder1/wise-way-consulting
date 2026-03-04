@@ -8,11 +8,11 @@ import { X } from 'lucide-react';
 const successStories = [
     { companyName: 'Care', amountRaised: '$150k', description: 'Series A Funding secured with our bespoke deck.', image: '/Care.png' },
     { companyName: 'Legacy One', amountRaised: '$100k', description: 'Grant + Equity matched funding.', image: '/Legacy one.png' },
+    { companyName: 'The Standard', amountRaised: '$100k', description: '', image: '/The Standard.png' },
+    { companyName: 'Acai Bella', amountRaised: '$100k', description: 'Seed Round closed in 6 weeks.', image: '/Acaibella wellness cafe.png' },
     { companyName: 'Scout Portugal', amountRaised: '$250k', description: 'Pre-revenue seed round.', image: '/Scout portugal.png' },
     { companyName: 'Quest Trip', amountRaised: '$200k', description: 'Token sale private round advisory.', image: '/QuestTrip.png' },
-    { companyName: 'The Standard', amountRaised: '$100k', description: '', image: '/The Standard.png' },
-    { companyName: 'Freedom Movement', amountRaised: '$150k', description: 'Strategic acquisition proposal accepted.', image: '/Freedom movement.png' },
-    { companyName: 'Acai Bella', amountRaised: '$100k', description: 'Seed Round closed in 6 weeks.', image: '/Acaibella wellness cafe.png' }
+    { companyName: 'Freedom Movement', amountRaised: '$150k', description: 'Strategic acquisition proposal accepted.', image: '/Freedom movement.png' }
 ];
 
 export default function Portfolio() {
